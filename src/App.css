@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+  background-color: #121a51;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.heading1 {
+  font-size: 2.25rem;
+  margin-top: 4.05rem;
+}
+.input-box {
+  margin-top: 3.6rem;
+  width: 40rem;
+}
+.input {
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  color: #000000;
+  text-align: center;
+  font-size: 1rem;
+  width: 73%;
+  outline: none;
+  border: none;
+}
+.reset-button {
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: #ff018d;
+  color: #ffffff;
+  width: 25%;
+  border: none;
+}
+.reset-button:hover {
+  background-color: #c4287e;
+  cursor: pointer;
+}
+.list {
+  max-height: 30rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-top: 2.5rem;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.item {
+  font-size: 1.2rem;
+  list-style: none;
+  overflow-wrap: break-word;
+  background-color: #ffffff;
+  color: #000000;
+  width: 95%;
+  border-radius: 5px;
+  height: 45px;
+  margin-bottom: 15px;
+  text-align: center;
+  padding-top: 17.5px;
+}
+.item:hover {
+  background-color: #cccccc;
+  cursor: pointer;
+}
+.completed-item {
+  text-decoration: line-through;
+  color: #555;
+}
